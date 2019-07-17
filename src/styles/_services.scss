@@ -1,0 +1,35 @@
+.servicesection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 4em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.service-item {
+    padding: 2em;
+    background-color: #eee;
+    border-radius: 5px;
+    h3, p {
+        margin: 0;
+        font-family: 'Roboto'
+    }
+    p {
+        margin: 10px 0;
+    }
+    h3 {
+        font-weight: 900;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: $accent-color;
+    margin: 0 auto;
+}

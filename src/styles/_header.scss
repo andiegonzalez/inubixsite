@@ -1,0 +1,52 @@
+.herosection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    padding: 2em;
+    height: 30em;
+    background-image: url('../../content/assets/herobg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logo {
+    z-index: 1000;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 0;
+}
+
+.herotitle, .herosub {
+    margin: 0.5em 0;
+    color: white;
+    z-index: 2;
+}
+
+.herocta {
+    margin: 1em;
+    text-decoration: none;
+    background-color: $accent-color;
+    padding: 1em 2em;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: none;
+    z-index: 3;
+    &:hover {
+        cursor: pointer;
+    }
+}

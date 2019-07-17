@@ -1,0 +1,25 @@
+.biosection {
+    padding: 2em 4em;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 1em;
+    p {
+        font-family: 'Roboto';
+        margin-bottom: 0;
+        margin-left: 1em;
+    }
+}
+
+.biotitle {
+    margin: 0;
+    font-family: 'Roboto'
+}
+
+.socialmedia-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    a {
+        margin: 0 1em;
+    }
+}

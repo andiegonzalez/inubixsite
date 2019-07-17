@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900');
+$primary-color: #25447a;
+$accent-color: #59b43d;
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Roboto'
+}
+h2 {
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+h3 {
+    font-size: 18px;
+}
+
+a {
+    color: $primary-color;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    &:hover {
+        color: darken($primary-color, 10%);
+    }
+    &:active {
+        color: $primary-color;
+    }
+}
+
+@import './_Header';
+@import './_Services';
+@import './_Bio';
+@import './_BlogSection';
+@import './_BlogTemplate';

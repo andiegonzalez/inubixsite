@@ -5,7 +5,8 @@ module.exports = {
         description: `Servicios Estratégicos en la Nube`,
         siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
         social: {
-            twitter: `kylemathews`,
+            twitter: `inubixmx`,
+            linkedin: `inubixmx`,
         },
     },
     plugins: [{
@@ -66,12 +67,7 @@ module.exports = {
         },
         `gatsby-plugin-offline`,
         `gatsby-plugin-react-helmet`,
-        {
-            resolve: `gatsby-plugin-typography`,
-            options: {
-                pathToConfigModule: `src/utils/typography`,
-            },
-        },
-        `gatsby-plugin-netlify-cms`
+        `gatsby-plugin-netlify-cms`,
+        `gatsby-plugin-sass`
     ],
 }
