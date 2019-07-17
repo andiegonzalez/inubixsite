@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import logo from '../../content/assets/logo.png'
-import Bio from "../components/bio"
+import Bio from "../components/Bio"
 
 class BlogPostTemplate extends React.Component {
   render() {
